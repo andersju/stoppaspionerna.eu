@@ -1,0 +1,240 @@
+/*@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Playfair Display'),
+		local('PlayfairDisplay-Regular'),
+		url('../fonts/Playfair_Display_400.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Playfair_Display_400.woff') format('woff'),
+		url('../fonts/Playfair_Display_400.ttf') format('truetype'),
+		url('../fonts/Playfair_Display_400.svg#PlayfairDisplay') format('svg');
+}*/
+/*@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		local('Playfair Display Italic'),
+		local('PlayfairDisplay-Italic'),
+		url('../fonts/Playfair_Display_400italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Playfair_Display_400italic.woff') format('woff'),
+		url('../fonts/Playfair_Display_400italic.ttf') format('truetype'),
+		url('../fonts/Playfair_Display_400italic.svg#PlayfairDisplay') format('svg');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Playfair Display Bold'),
+		local('PlayfairDisplay-Bold'),
+		url('../fonts/Playfair_Display_700.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Playfair_Display_700.woff') format('woff'),
+		url('../fonts/Playfair_Display_700.ttf') format('truetype'),
+		url('../fonts/Playfair_Display_700.svg#PlayfairDisplay') format('svg');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 700;
+	src:
+		local('Playfair Display Bold Italic'),
+		local('PlayfairDisplay-BoldItalic'),
+		url('../fonts/Playfair_Display_700italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Playfair_Display_700italic.woff') format('woff'),
+		url('../fonts/Playfair_Display_700italic.ttf') format('truetype'),
+		url('../fonts/Playfair_Display_700italic.svg#PlayfairDisplay') format('svg');
+}*/
+
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('Oswald Light'),
+		local('Oswald-Light'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDfY6323mHUZFJMgTvxaG2iE.eot */
+		url('../fonts/Oswald_300.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.woff */
+		url('../fonts/Oswald_300.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDaCWcynf_cDxXwCLxiixG1c.ttf */
+		url('../fonts/Oswald_300.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=HqHm7BVC_nzzTui2lzQTDZbd9NUM7myrQQz30yPaGQ4#Oswald */
+		url('../fonts/Oswald_300.svg#Oswald') format('svg');
+}
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Oswald Regular'),
+		local('Oswald-Regular'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/-WzdRTzRa5k6HlJK6-dK9Q.eot */
+		url('../fonts/Oswald_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/-g5pDUSRgvxvOl5u-a_WHw.woff */
+		url('../fonts/Oswald_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/Y_TKV6o8WovbUd3m_X9aAA.ttf */
+		url('../fonts/Oswald_400.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=lvX543xfU1-yV4ZhBKmRFw#Oswald */
+		url('../fonts/Oswald_400.svg#Oswald') format('svg');
+}
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Oswald Bold'),
+		local('Oswald-Bold'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot */
+		url('../fonts/Oswald_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff */
+		url('../fonts/Oswald_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf */
+		url('../fonts/Oswald_700.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=bH7276GfdCjMjApa_dkG6Zbd9NUM7myrQQz30yPaGQ4#Oswald */
+		url('../fonts/Oswald_700.svg#Oswald') format('svg');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('Source Sans Pro Light'),
+		local('SourceSansPro-Light'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGBlTL9oEQvYTI0YAW1-Ysv0.eot */
+		url('../fonts/Source_Sans_Pro_300.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff */
+		url('../fonts/Source_Sans_Pro_300.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGMw1o1eFRj7wYC6JbISqOjY.ttf */
+		url('../fonts/Source_Sans_Pro_300.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=toadOcfmlt9b38dHJxOBGOUS_KcVBMXUJf1HZjyEEXg#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_300.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 300;
+	src:
+		local('Source Sans Pro Light Italic'),
+		local('SourceSansPro-LightIt'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Ffv2gilBNcWxh_XnzykpgY.eot */
+		url('../fonts/Source_Sans_Pro_300italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff */
+		url('../fonts/Source_Sans_Pro_300italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Iue0YgdIF4L_q7PS4yTQOQ.ttf */
+		url('../fonts/Source_Sans_Pro_300italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=fpTVHK8qsXbIeTHTrnQH6A2mJkpsOKRM4ng017j2hP8#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_300italic.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Source Sans Pro'),
+		local('SourceSansPro-Regular'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlN0tugusXa58UbOrParLRF0.eot */
+		url('../fonts/Source_Sans_Pro_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff */
+		url('../fonts/Source_Sans_Pro_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNzbP97U9sKh0jjxbPbfOKg.ttf */
+		url('../fonts/Source_Sans_Pro_400.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=ODelI1aHBYDBqgeIAH2zlADX0QHsyBtvFGhCuXSMYhM#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_400.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		local('Source Sans Pro Italic'),
+		local('SourceSansPro-It'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoM04EkD-uilk0_oIxFXvMtLk.eot */
+		url('../fonts/Source_Sans_Pro_400italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff */
+		url('../fonts/Source_Sans_Pro_400italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoM0DauxaEVho0aInXGvhmB4k.ttf */
+		url('../fonts/Source_Sans_Pro_400italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=M2Jd71oPJhLKp0zdtTvoM39_ATuyk1uF0ceUyTEF8x4#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_400italic.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('Source Sans Pro Semibold'),
+		local('SourceSansPro-Semibold'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNanmHNzStikJN_FjplbBik.eot */
+		url('../fonts/Source_Sans_Pro_600.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff */
+		url('../fonts/Source_Sans_Pro_600.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGNNE-IuDiR70wI4zXaKqWCM.ttf */
+		url('../fonts/Source_Sans_Pro_600.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=toadOcfmlt9b38dHJxOBGN6ADpNrYTvKq5lsv8A_aYs#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_600.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 600;
+	src:
+		local('Source Sans Pro Semibold Italic'),
+		local('SourceSansPro-SemiboldIt'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6EbumxWHRSe1oVyAWeloI5o.eot */
+		url('../fonts/Source_Sans_Pro_600italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6PULlOK_XQENnt2ryrY843E.woff */
+		url('../fonts/Source_Sans_Pro_600italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6EfrksRSinjQUrHtm_nW72g.ttf */
+		url('../fonts/Source_Sans_Pro_600italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=fpTVHK8qsXbIeTHTrnQH6Fd_7WJx2GUG2oLFWNtCPo4#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_600italic.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Source Sans Pro Bold'),
+		local('SourceSansPro-Bold'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFV89XnfCtb1fhQGOlhyqi8.eot */
+		url('../fonts/Source_Sans_Pro_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff */
+		url('../fonts/Source_Sans_Pro_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGLsbIrGiHa6JIepkyt5c0A0.ttf */
+		url('../fonts/Source_Sans_Pro_700.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=toadOcfmlt9b38dHJxOBGDoOxVUo1xdF11_PvoexWN4#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_700.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: italic;
+	font-weight: 700;
+	src:
+		local('Source Sans Pro Bold Italic'),
+		local('SourceSansPro-BoldIt'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6HXzH4U_Axe6qCclt7v7nW0.eot */
+		url('../fonts/Source_Sans_Pro_700italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Nog-We9VNve39Jr4Vs_aDc.woff */
+		url('../fonts/Source_Sans_Pro_700italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/sourcesanspro/v9/fpTVHK8qsXbIeTHTrnQH6Edtd7Dq2ZflsctMEexj2lw.ttf */
+		url('../fonts/Source_Sans_Pro_700italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=fpTVHK8qsXbIeTHTrnQH6AWPXkTyTbDEUfF_tYif2Xo#SourceSansPro */
+		url('../fonts/Source_Sans_Pro_700italic.svg#SourceSansPro') format('svg');
+}
+@font-face {
+	font-family: 'Droid Sans Mono';
+	font-style: normal;
+	font-weight: normal;
+	src:
+		local('Droid Sans Mono'),
+		local('DroidSansMono'),
+		/* from http://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJUYuTAAIFFn5GTWtryCmBQ4.woff */
+		url('../fonts/Droid_Sans_Mono.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJYW_AySPyikQrZReizgrnuw.ttf */
+		url('../fonts/Droid_Sans_Mono.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=ns-m2xQYezAtqh7ai59hJaCLXEu0wbeKjKdJPgQe1G4#DroidSansMono */
+		url('../fonts/Droid_Sans_Mono.svg#DroidSansMono') format('svg');
+}

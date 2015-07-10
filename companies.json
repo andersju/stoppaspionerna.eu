@@ -1,0 +1,93 @@
+{
+  "alltele": {
+    "name": "AllTele",
+    "address": ["AllTele Allmänna Svenska Telefonaktiebolaget", "Box 241", "202 29 Malmö"],
+    "data": "1"
+  },
+  "b2": {
+    "name": "Bredband2",
+    "address": ["Bredband2 i Skandinavien AB", "Gävlegatan 22A 6tr", "113 30 Stockholm"],
+    "data": "1"
+  },
+  "bahnhof": {
+    "name": "Bahnhof",
+    "address": ["Bahnhof AB", "Box 7702", "103 95 Stockholm"],
+    "data": "1"
+  },
+  "bbb": {
+    "name": "Bredbandsbolaget",
+    "address": ["B2 Bredband AB", "116 88 Stockholm"],
+    "data": "1"
+  },
+  "comhem": {
+    "name": "Com Hem",
+    "address": ["Com Hem AB", "Kundrelationer", "Box 43", "871 21 Härnösand"],
+    "data": "1"
+  },
+  "comviq": {
+    "name": "Comviq",
+    "address": ["Comviq", "106 66 Stockholm"],
+    "data": "1"
+  },
+  "halebop": {
+    "name": "Halebop",
+    "address": ["TeliaSonera Sverige AB, Halebop", "Registerutdrag", "123 86 Farsta"],
+    "data": "1"
+  },
+  "ownit": {
+    "name": "Ownit",
+    "address": ["Ownit Broadband AB", "116 88 Stockholm"],
+    "data": "1"
+  },
+  "riksnet": {
+    "name": "Riksnet",
+    "address": ["Rätt Internet Kapacitet i Sverige AB", "Storgatan 38", "903 26 Umeå"],
+    "data": "1"
+  },
+  "t3": {
+    "name": "T3",
+    "address": ["Telecom3 Sverige AB", "Box 133", "901 04 Umeå"],
+    "data": "1"
+  },
+  "telia": {
+    "name": "TeliaSonera AB",
+    "address": ["TeliaSonera Sverige AB", "PUL", "Svarspost 108317743", "978 00 Luleå"],
+    "data": "1"
+  },
+  "telenor": {
+    "name": "Telenor Sverige AB",
+    "address": ["Telenor Sverige AB", "371 80 Karlskrona"],
+    "data": "1"
+  },
+  "tele2": {
+    "name": "Tele2 Sverige AB",
+    "address": ["Tele2 Sverige AB", "106 66 Stockholm"],
+    "data": "1"
+  },
+  "tre": {
+    "name": "Tre (HI3G Access AB)",
+    "address": ["HI3G Access AB", "Att. Juridikavdelningen", "Lindhagensgatan 98", "BOX 30213", "104 25 Stockholm"],
+    "data": "1"
+  },
+  "axfoodwillys": {
+    "name": "Axfood/Willys",
+    "address": ["Kundtjänst Willys+", "Box 1915", "581 18 Linköping"]
+  },
+  "coop": {
+    "name": "Coop Sverige AB",
+    "address": ["Coop Kundservice", "Box 1340", "171 22 Solna"]
+  },
+  "ica": {
+    "name": "ICA",
+    "address": ["ICA Banken", "504 82 Borås"]
+  },
+  "ikea": {
+    "name": "IKEA",
+    "address": ["IKEA Svenska Försäljnings AB", "Box 200", "260 35 Ödåkra"]
+  },
+  "klarna": {
+    "name":
+    "Klarna AB",
+    "address": ["Klarna AB", "Data Protection", "Sveavägen 46", "111 34 Stockholm"]
+  }
+}

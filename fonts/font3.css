@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('Oswald Light'),
+		local('Oswald-Light'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDfY6323mHUZFJMgTvxaG2iE.eot */
+		url('Oswald_300.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDT8E0i7KZn-EPnyo3HZu7kw.woff */
+		url('Oswald_300.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDaCWcynf_cDxXwCLxiixG1c.ttf */
+		url('Oswald_300.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=HqHm7BVC_nzzTui2lzQTDZbd9NUM7myrQQz30yPaGQ4#Oswald */
+		url('Oswald_300.svg#Oswald') format('svg');
+}
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Oswald Regular'),
+		local('Oswald-Regular'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/-WzdRTzRa5k6HlJK6-dK9Q.eot */
+		url('Oswald_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/-g5pDUSRgvxvOl5u-a_WHw.woff */
+		url('Oswald_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/Y_TKV6o8WovbUd3m_X9aAA.ttf */
+		url('Oswald_400.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=lvX543xfU1-yV4ZhBKmRFw#Oswald */
+		url('Oswald_400.svg#Oswald') format('svg');
+}
+@font-face {
+	font-family: 'Oswald';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Oswald Bold'),
+		local('Oswald-Bold'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6fY6323mHUZFJMgTvxaG2iE.eot */
+		url('Oswald_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6T8E0i7KZn-EPnyo3HZu7kw.woff */
+		url('Oswald_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/oswald/v10/bH7276GfdCjMjApa_dkG6aCWcynf_cDxXwCLxiixG1c.ttf */
+		url('Oswald_700.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=bH7276GfdCjMjApa_dkG6Zbd9NUM7myrQQz30yPaGQ4#Oswald */
+		url('Oswald_700.svg#Oswald') format('svg');
+}

@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Playfair Display'),
+		local('PlayfairDisplay-Regular'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1Cbe3AsAJmdYwF3n7gHK4QTQ.eot */
+		url('Playfair_Display_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CZa6Tn9fxpDPuRSK4Gn5Ybw.woff */
+		url('Playfair_Display_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1Cczai8e7xzqnKiVb1EwOy0E.ttf */
+		url('Playfair_Display_400.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=2NBgzUtEeyB-Xtpr9bm1CWrjLcHVtfJQyoPByBFBHV4#PlayfairDisplay */
+		url('Playfair_Display_400.svg#PlayfairDisplay') format('svg');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		local('Playfair Display Italic'),
+		local('PlayfairDisplay-Italic'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/9MkijrV-dEJ0-_NWV7E6N1unUjFLosqcXqVe-epvtEE.eot */
+		url('Playfair_Display_400italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/9MkijrV-dEJ0-_NWV7E6N3aqFElqJjV-H5EUExnZgmU.woff */
+		url('Playfair_Display_400italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/9MkijrV-dEJ0-_NWV7E6N218GKU_F_kIyfK-gGC-Yzs.ttf */
+		url('Playfair_Display_400italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=9MkijrV-dEJ0-_NWV7E6N9nDrVFD_vCoEQynnz14rTQ#PlayfairDisplay */
+		url('Playfair_Display_400italic.svg#PlayfairDisplay') format('svg');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Playfair Display Bold'),
+		local('PlayfairDisplay-Bold'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/UC3ZEjagJi85gF9qFaBgIP9t3sFHLYVCat4wgzBFPuA.eot */
+		url('Playfair_Display_700.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/UC3ZEjagJi85gF9qFaBgIDTx0bvFePwcBpOqDg3uc64.woff */
+		url('Playfair_Display_700.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/UC3ZEjagJi85gF9qFaBgIETamuWRjOQSPxoOXgdYd7c.ttf */
+		url('Playfair_Display_700.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=UC3ZEjagJi85gF9qFaBgIJSCSk5fkE1XWXxKnr_alI0#PlayfairDisplay */
+		url('Playfair_Display_700.svg#PlayfairDisplay') format('svg');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 700;
+	src:
+		local('Playfair Display Bold Italic'),
+		local('PlayfairDisplay-BoldItalic'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/n7G4PqJvFP2Kubl0VBLDEJYohve3Gbzn3GgIZD9ns0s.eot */
+		url('Playfair_Display_700italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/n7G4PqJvFP2Kubl0VBLDEOfyGQywPtiY5YH2ACZKFIE.woff */
+		url('Playfair_Display_700italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/playfairdisplay/v10/n7G4PqJvFP2Kubl0VBLDEGewmj-_04VMEgCJvu_4mtU.ttf */
+		url('Playfair_Display_700italic.ttf') format('truetype'),
+		/* from http://fonts.gstatic.com/l/font?kit=n7G4PqJvFP2Kubl0VBLDEGlEt66pLyckBXsEJiEAoG8#PlayfairDisplay */
+		url('Playfair_Display_700italic.svg#PlayfairDisplay') format('svg');
+}

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Svenska staten tvingar Internet- och mobiloperatörer att massövervaka samtliga svenska medborgare, i strid mot grundläggande mänskliga rättigheter. Begär ut registerutdrag från din operatör." />
+	<link rel="canonical" href="https://stoppaspionerna.eu/" />
+	<link rel="shortlink" href="https://stoppaspionerna.eu/" />
+	<meta property="og:site_name" content="stoppaspionerna.eu" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://stoppaspionerna.eu/" />
+	<meta property="og:title" content="Stoppa spionerna!" />
+	<meta property="og:image" content="https://stoppaspionerna.eu/img/bg2_og.jpg" />
+	<title>Stoppa spionerna!</title>
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="bower_components/modernizr/modernizr.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/img/favicon-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/img/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="/img/mstile-144x144.png">
+	<meta name="referrer" content="never" />
+</head>
+<body>
+	<div class="share-buttons">
+		<ul class="no-bullet">
+			<a href="http://twitter.com/intent/tweet?url=https%3A%2F%2Fstoppaspionerna.eu&amp;hashtags=stoppaspionerna&amp;text=Sverige+tvingar+operat%C3%B6rer+datalagra+i+strid+mot+de+m%C3%A4nskliga+r%C3%A4ttigheterna.+Beg%C3%A4r+registerutdrag%21" target="_blank" title="Dela på Twitter">
+				<li class="share-twitter"><i class="fa fa-twitter fa-fw"></i></li>
+			</a>
+			<a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fstoppaspionerna.eu" target="_blank" title="Dela på Facebook">
+				<li class="share-facebook"><i class="fa fa-facebook fa-fw"></i></li>
+			</a>
+			<a href="https://plus.google.com/share?url=https%3A%2F%2Fstoppaspionerna.eu" target="_blank" title="Dela på Google+">
+				<li class="share-google"><i class="fa fa-google-plus fa-fw"></i></li>
+			</a>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		// Choose image based on browser width
+		var width = $( window ).width();
+		var headerImage;
+
+		if ( width <= 800 ) {
+			headerImage = 'img/bg2_800.jpg';
+		} else if ( width <= 1200 ) {
+			headerImage = 'img/bg2_1200.jpg';
+		} else {
+			headerImage = 'img/bg2.jpg';
+		}
+
+		document.write( '<img id="header-image" src="' + headerImage + '" />' );
+	</script>
+	<noscript>
+		<img id="hero-image" src="/img/bg.jpg" />
+	</noscript>
+
+	<span id="hero-image-caption">
+		Foto: <a href="http://sandas04.deviantart.com/art/Surveillance-328357763">Nils-Erik Larson</a>
+	</span>
+
+	<div id="hero" class="front">
+		<div class="row fullWidth">
+			<div class="large-8 columns">
+				<h1>Vem du <strong>ringer</strong>. Vem du <strong>sms:ar</strong>. Vem du <strong>mejlar</strong>. Var du <strong>jobbar</strong>. Var du <strong>sover</strong>. Var du <strong>går</strong>. <strong><span style="color:#ff0000;">Vem du är.</span></strong></h1>
+			</div>
+			<div class="large-4 columns header-right">
+				<p>Svenska staten tvingar Internet- och teleoperatörer att massövervaka samtliga svenska medborgare.</p>
+				<p><span data-tooltip aria-haspopup="true" class="has-tip" title="Lag (2003:389) om elektronisk kommunikation, 6 kap. 16 a §">Lagen om trafikdatalagring</span> är Sveriges implementation av EU:s datalagringsdirektiv. Direktivet revs upp av EU-domstolen i april 2014. Domstolen fann att direktivet stred mot grundläggande mänskliga rättigheter. Trots det fortsätter datalagringen i Sverige.</p>
+			</div>
+		</div>
+	</div>
+
+	<div data-magellan-expedition="fixed" class="show-for-medium-up text-center" id="home-nav">
+		<dl class="sub-nav">
+			<dd data-magellan-arrival="vadlagras"><a href="#vadlagras">Vad lagras?</a></dd>
+			<dd data-magellan-arrival="barametadata"><a href="#barametadata">"Bara metadata"</a></dd>
+			<dd data-magellan-arrival="rentmjol"><a href="#rentmjol">Rent mjöl</a></dd>
+			<dd data-magellan-arrival="hittills"><a href="#hittills">Vad som hänt</a></dd>
+			<dd data-magellan-arrival="utdrag"><a href="#utdrag">Begär utdrag</a></dd>
+		</dl>
+	</div>
+
+	<div class="home-text home-dark">
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 id="vadlagras" data-magellan-destination="vadlagras">Vad lagras?</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Internet- och teleoperatörer är tvungna att lagra information om följande:</p>
+
+				<ul class="no-bullet">
+					<li><i class="fa fa-phone fa-fw"></i> Alla dina telefonsamtal &ndash; både fast och mobilt</li>
+					<li><i class="fa fa-mobile fa-fw"></i> Alla dina sms</li>
+					<li><i class="fa fa-envelope-o fa-fw"></i> All din epost</li>
+					<li><i class="fa fa-globe fa-fw"></i> Dina mobilpositioner</li>
+					<li><i class="fa fa-wifi fa-fw"></i> Dina nätuppkopplingar</li>
+				</ul>
+
+				<p>Allt detta ska sparas i sex månader.</p>
+
+				<span class="pts-quote">"Enkelt uttryckt kan man säga att de trafikuppgifter som ska sparas svarar på frågor om <strong>vem</strong> som kommunicerade med vem, <strong>när</strong> det skedde, <strong>var</strong> de som kommunicerade befann sig och <strong>vilken</strong> typ av kommunikation som användes (t.ex. sms eller telefonitjänst)."</span>
+				<p>&mdash; <a href="http://www.pts.se/trafikdatalagring#Ska%20sparas">Post- och telestyrelsen</a> (PTS)</p>
+			</div>
+			<div class="large-4 columns">
+				<p class="monospaced"><a href="https://lagen.nu/2003:389#K6P16aS1">6 kap. LEK</a> (Lagen om elektronisk kommunikation):</p>
+				<p class="monospaced"><strong>16 a §</strong> Den som bedriver verksamhet som är anmälningspliktig enligt 2 kap. 1 § är <span class="underline">skyldig att lagra</span> sådana uppgifter som avses i 20 § första stycket 1 och 3 som är nödvändiga för att <span class="underline">spåra och identifiera kommunikationskällan</span>, <span class="underline">slutmålet för kommunikationen</span>, <span class="underline">datum</span>, <span class="underline">tidpunkt och varaktighet för kommunikationen</span>, <span class="underline">typ av kommunikation</span>, <span class="underline">kommunikationsutrustning</span> samt <span class="underline">lokalisering av mobil kommunikationsutrustning vid kommunikationens början och slut</span>.</p>
+
+				<p class="monospaced">Skyldigheten att lagra uppgifter enligt första stycket omfattar uppgifter som genereras eller behandlas vid <span class="underline">telefonitjänst</span>, <span class="underline">meddelandehantering</span>, <span class="underline">internetåtkomst</span> och <span class="underline">tillhandahållande av kapacitet för att få internetåtkomst</span> (anslutningsform). <span class="underline">Även vid misslyckad uppringning</span> gäller skyldigheten att lagra uppgifter som genereras eller behandlas.
+					<br />[…]<br />
+					<strong>16 d §</strong> Uppgifter som avses i 16 a § ska <span class="underline">lagras i sex månader</span> räknat från den dag kommunikationen avslutades.[…]
+					<br />[…]<br />
+					<strong>16 f §</strong> Den som är skyldig att lagra uppgifter enligt 16 a § ska bedriva verksamheten så att uppgifterna <span class="underline">utan dröjsmål kan lämnas ut</span> och så att verkställandet av utlämnandet <span class="underline">inte röjs</span>. Uppgifterna ska göras tillgängliga på ett sådant sätt att informationen enkelt kan tas om hand.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-text home-dark barametadata">
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 id="barametadata" data-magellan-destination="barametadata">Men det är ju bara metadata?</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p><span data-tooltip aria-haspopup="true" class="has-tip" title="Post- och telestyrelsen">PTS</span> och Polisen påpekar gärna att själva <em>innehållet</em> i en kommunikation inte sparas, utan bara <em>metadatan</em> &ndash; din operatör behöver till exempel inte spara det du skriver i ett sms, men information <em>om</em> sms:et: när du skickar det, var du är någonstans när du skickar det, vem du skickar till och var mottagaren är någonstans. Ditt samtal spelas inte in &ndash; men information om samtalet registreras: vem du ringer (eller som ringer dig), var du och samtalspartnern befinner er, hur länge samtalet varar. Och så vidare.</p>
+
+				<p>Men tillsammans bildar dessa små bitar av metadata ett helt pussel som målar upp en bild av dig. Den tyske politikern Malte Spitz stämde sin mobiloperatör Deutsche Telekom för att få ut den trafikdata de lagrat om honom. Datan fick han i form av en gigantisk Excel-fil. Tidningen ZEIT tog filen och gjorde en <a href="http://www.zeit.de/datenschutz/malte-spitz-data-retention">interaktiv visualisering</a> där du kan följa Malte Spitz liv.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<blockquote>
+					<p class="spitz-quote">En och en är dessa bitar av data mestadels oviktiga och harmlösa, men tillsammans ger de vad utredare kallar för en profil: en tydlig bild  över en persons vanor och preferenser, och, ja &ndash; av hans eller hennes liv.</p>
+					<p class="spitz-quote">Denna profil avslöjar när Spitz gick ner för gatan, när han tog ett tåg, när  han var på ett flygplan. Den visar var han var i städerna han besökte. Den visar var han jobbade och var han sov, när han kunde nås via telefon och när han var otillgänglig. Den visar när han föredrog att prata i telefon och när han föredrog att skicka ett sms. Den visar vilka uteserveringar han tyckte om att besöka på sin lediga tid. <strong>Allt som allt avslöjar den ett helt liv.</strong></p>
+					<cite>Biermann, Kai. "<a href="http://www.zeit.de/digital/datenschutz/2011-03/data-protection-malte-spitz">Betrayed by our own data</a>". <em>ZEIT</em>, 26 mars 2011.</cite>
+				</blockquote>
+			</div>
+			<div class="large-4 columns text-center">
+				<img src="img/spitz_map2.png" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Svenska mobiloperatörer lagrar samma information om dig. De lämnar ut profilerna till myndigheter. Profilerna går att koppla samman med andra privatpersoners profiler så att man kan se när vänner träffats, när de fikat, när de gått till bussen tillsammans och i vilka affärer de har handlat.</p>
+
+				<p>Faktum är att det ofta är <em>enklare</em> att förstå vad en kommunikation handlar om genom att titta på metadata än genom att lyssna på ett samtal eller läsa ett meddelande. Metadata är hårda fakta som maskinellt kan läsas in i databaser, samköras med olika register och användas för att bygga upp en bild av en människas sociala liv och mönster. Det är enklare att söka i massiva mängder metadata än att lyssna på massor av telefonsamtal.</p>
+			</div>
+			<div class="large-4 columns">
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<span class="pts-quote">Metadata berättar definitivt allt om någons liv. Om du har tillräckligt mycket metadata behöver du egentligen inte innehållet. Det är liksom lite pinsamt hur förutsägbara vi är som människor.</span>
+				<p>&mdash; Stewart Baker, tidigare chefsjurist för <span data-tooltip aria-haspopup="true" class="has-tip" title="National Security Agency, amerikansk myndighet ansvarig för signalspaning; deras motsvarighet till svenska FRA">NSA</span> (<a href="http://www.nybooks.com/articles/archives/2013/nov/21/snowden-leaks-and-public/">källa</a>)</p>
+			</div>
+			<div class="large-4 columns text-center">
+				<i class="fa fa-quote-right"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Juridikprofessorn David Cole upprepade Bakers kommentar i en debatt med Michael Hayden, tidigare chef för NSA. Hayden svarade att Bakers beskrivning var "absolut korrekt" &ndash; och gick ett steg längre:</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-12 columns">
+				<span class="hayden-quote">"Vi <strong style="color:red;">dödar</strong> folk baserat på metadata."</span>
+				<p>&mdash; Michael Hayden, general i USA:s flygvapen, chef för NSA 1999&ndash;2005 (<a href="https://www.youtube.com/watch?v=kV2HDM86XgI#t=1073">video</a> &ndash; vid 17:53)</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-text home-dark rentmjol">
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 id="rentmjol" data-magellan-destination="rentmjol">Men jag har rent mjöl i påsen!</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>"Jag har inget att dölja"-argumentet utgår från att rätten till privatliv bara handlar om att få dölja dåliga saker. Men privatliv handlar om att kunna leva ett fritt liv. Det är ett fundamentalt mänskligt behov. Det är en förutsättning för ett demokratiskt samhälle. Det är en grundläggande rättighet fastslagen i <span data-tooltip aria-haspopup="true" class="has-tip" title="'Var och en har rätt till skydd för sitt privat- och familjeliv, sitt hem och sin korrespondens.'">artikel 8</span> i Europeiska konventionen om skydd för de mänskliga rättigheterna.</p>
+
+				<p>Det handlar inte om privatliv kontra säkerhet. Det handlar om frihet kontra kontroll. Privatlivets helgd skyddar dig från maktmissbruk. Privatliv och integritet handlar om ditt självbestämmande, så att andra inte kan ta makten över dig.</p>
+
+				<p><strong>Profilering</strong>, när man skapar bilder av människors liv och umgängeskrets, är en osäker vetenskap. Att ha "rent mjöl i påsen" kan plötsligt definieras av hur man har kontakt med vem, snarare än vad kontakten handlar om.</p>
+
+				<p>Särskilda grupper av personer, som romer, föräldrar med barn på vissa skolor eller människor vars vänner besöker vissa platser kan misstänkliggöras. "Grupprofiler" som kartläggningsverktyg är själva ursprunget till "skuld genom förknippning".</p>
+
+				<p>Och det är lättare att det blir fel än att det blir rätt.</p>
+
+				<h3>Det är inte du som avgör vad som är rent mjöl</h3>
+			</div>
+			<div class="large-4 columns text-center">
+				<i class="fa fa-eye"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Övervakningssystem ser inte nödvändigtvis skillnad på rent och orent mjöl. Små avvikelser och slumpmässiga sammanträffanden blir intressanta och kan flagga dig som misstänkt. Ju mer uppgifter om dig man samlar in, desto större sannolikhet att något smutsigt går att påvisa.</p>
+
+				<p>Den som letar tillräckligt länge efter något misstänkt kommer att hitta det. "Övervakaren lägger inte bara pussel utan bestämmer också i hög grad vad bilden ska föreställa."<sup>1</sup></p>
+
+				<p>Övervakningssystem byggs för att upptäcka avvikelser från nuvarande normer, inte för att acceptera framtiden. Pride-paraden och dess deltagare är &ndash; i Sverige &ndash; säkra idag, men hade inte varit det om man kunnat kartlägga och ödelägga det gemensamma engagemang som ledde oss fram hit. Hade dagens övervakningssystem funnits på 50- och 60-talet hade homosexualitet fortfarande varit olagligt. <strong>Orättvisa lagar måste kunna brytas för att samhället ska gå framåt.</strong> Det vore mycket naivt att tro att våra nuvarande lagar är de bästa av lagar.</p>
+
+				<p><strong>Vad som är rent mjöl kan snabbt ändras.</strong> Agrell <a href="http://www.sydsvenskan.se/kultur--nojen/rent-mjol-i-fel-pase/">skriver</a> om hur praktiskt taget alla utlänningar i Sverige 1940 blev misstänkta <em>per definition</em> för statsfientlig verksamhet och hur en persons blotta existens kunde vara skäl nog för internering; hur efter 11 september tidigare obetydliga saker som etnicitet, resemönster och släktrelationer plötsligt blev potentiella varningssignaler.</p>
+
+				<p><strong>All övervakning måste ses i ljuset av hur den kan utnyttjas av en värre regim än den vi har i dag.</strong> I Europa är auktoritära extremistpartier på frammarsch. Att ett sådant parti kommer till makten och kan använda en färdig massövervakningsinfrastruktur som det är för sent att protestera mot är en mardröm.</p>
+
+			</div>
+			<div class="large-4 columns sidebar-smaller">
+				<p>1. Wilhelm Agrell, professor i underrättelseanalys, berättar i "<a href="http://www.sydsvenskan.se/kultur--nojen/rent-mjol-i-fel-pase/">Rent mjöl i fel påse</a>" (Sydsvenskan 17/12 2013) om snickaren Torsten Leander, som helt lagligt parkerade sin bil utanför en skola i Norrköping år 1978. Vad Leander inte visste var att Folket i Bild/Kulturfront hade årsstämma samtidigt. Spanare från Säpo gick runt och antecknade bilnumren. Leander fastnade i övervakningssystemet.</p>
+
+				<p>Året därpå jobbade Leander som snickare på Marinmuseum i Karlskrona. En dag blev han avskedad med omedelbar verkan &ndash; en säkerhetskontroll hade visat att han fanns i Säpos register. Det tog arton år och en mängd turer innan han lyckades få se sin akt och få en ursäkt och skadestånd från regeringen. Han hade bara råkat vara på fel plats vid fel tidpunkt.</p>
+
+				<p>I dag registreras oerhört mycket mer än under 70-talets kontroversiella åsiktsregistrering.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<h3>Databaser läcker, information missbrukas</h3>
+				<p>Säkerhets- och integritetsskyddsnämnden <a href="http://www.dagensjuridik.se/2014/09/namnden-anmaler-polisen-till-aklagare">anmälde</a> Polismyndigheten i Dalarna till åklagare för att polisen vid tre tillfällen hämtat datalagrad data utan tillstånd.</p>
+
+				<p>På <a href="http://history.edri.org/edrigram/number9.17/abuses-irish-police-databases">Irland</a> använde polisen datalagrad data för att spionera på familjemedlemmar och expartners. Polisen har också anklagats för att ha sålt information till försäkringsbolag och kriminella.</p>
+
+				<p>Dessa är några av de exempel på fall vi känner till. Till syvende och sist är frågan: vem övervakar övervakaren? Känslig information om dig är lagrad på en mängd olika datorsystem som såväl myndigheter som vanliga IT-tekniker har tillgång till. Du kan helt enkelt aldrig vara säker på informationen inte missbrukas.</p>
+
+				<p>Granskningen av myndigheternas kartläggning av individer är låg. Politiskt ses varken profiler eller kartläggning av beteenden och vänskapskretsar som tillräckligt allvarligt, trots att myndigheterna som ägnar sig åt profilering och kartläggning uppfattar det som mer privatlivskränkande och gynnsamt för dem själva än övervakning av kommunikation.</p>
+			</div>
+			<div class="large-4 columns text-center">
+				<i class="fa fa-question-circle"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<h3>Massövervakning är kontraproduktivt</h3>
+				<p>Massövervakning skapar en falsk trygghet. När underrättelsetjänsten misslyckas, som i fallet med Charlie Hebdo, går myndigheter och politiker ut med att det är mer information som behövs: mer datalagring, centrala passagerarregister. Inte att det är analysförmågan som varit för dålig.</p>
+
+				<blockquote>
+					Saddam Hussein hade aldrig några massförstörelsevapen. Dålig underrättelseverksamhet orsakade invasionen som födde al-Qaida i Irak som blev terrorkalifatet IS. USA lyckades varken stoppa sko-, kalsong-, eller Bostonbombarna – trots att de var flaggade. Bröderna Kouachi var i kontakt med kända terrorideologer. Den yngre, Cherif Kouarchi, även dömd jihadist, den äldre militärt tränad i Jemen. Ändå kunde de bygga upp vapenlager med granatkastare i Frankrikes huvudstad. <strong>Underrättelsetjänsten skyfflade hö istället för att bevaka de fullt synliga nålarna.</strong>
+					<cite>Ola Wong, <a href="http://www.svd.se/nyheter/utrikes/massovervakning-skapar-falsk-trygghet_4255475.svd">Massövervakning skapar falsk trygghet</a>, SvD 15/1 2015</cite>
+				</blockquote>
+			</div>
+			<div class="large-4 columns text-center">
+				<i class="fa fa-exclamation-circle"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Wilhelm Agrell, professor i underrättelseanalys vid Lunds universitet, skriver om hur det kan vara omöjligt att före en händelse göra skillnad på signaler och brus &ndash; eftersom den distinktionen helt enkelt inte finns.<sup>1</sup> Dessutom: ju större mängder data som hämtas in, desto större blir problemet med brus.<sup>2</sup></p>
+
+				<p>I sitt <a href="http://www.regeringen.se/sb/d/19944/a/253294">tal till Säkerhetspolisen</a> den 23 januari 2015 sade inrikesminister Anders Ygeman att "möjligheten att samla och systematiskt behandla biljettinformation ska stärkas". Det tycks inte spela någon roll att inga terrorattacker begåtts av personer som hade kunnat spåras genom passagerarregister om sådana funnits.</p>
+
+				<p>En rapport från Europarådets parlamentariska församling från januari 2015 kom fram till att massövervakning både hotar grundläggande mänskliga rättigheter <em>och</em> i praktiken hjälper terrorister.</p>
+
+				<blockquote>Massövervakning verkar inte ha bidragit till förhindrandet av terroristattacker, i motsats till tidigare påståenden från högt uppsatta underrättelsetjänstemän. Resurser som kan hindra attacker läggs i stället på massövervakning, vilket lämnar potentiellt farliga personer fria att agera.
+					<cite>Rättsliga utskottet, Europarådets parlamentariska församling, <a href="http://assembly.coe.int/nw/xml/News/News-View-EN.asp?newsid=5387&lang=2&cat=5">Mass surveillance</a> (rapport), 26 januari 2015</cite>
+				</blockquote>
+			</div>
+			<div class="large-4 columns blockquote-right">
+				<blockquote>
+					1. "Om de terrorister som genomförde attackerna den 11 september 2001 hade arbetat med flera alternativa planer (och vissa uppgifter tyder på att så var fallet) och motåtgärder mot en av dessa hade lett till att de valt ett annat alternativ, vad är det då som på förhand utgör skillnaden mellan signaler respektive brus? I ett dynamiskt förlopp där två eller flera parter reagerar på varandras åtgärder riskerar alltså varseblivandet av ett hot att visserligen eliminera detta men samtidigt leda till att något annat inträffar istället. Det som ursprungligen på goda sakliga grunder uppfattades som ett hot kommer då i efterhand att framstå som brus och endast en mycket ingående kännedom om planläggning och beslutsfattande på motståndarsidan kan klarlägga det rätta förhållandet."
+					<cite>Wilhelm Agrell, <a href="http://www.fhs.se/Documents/Externwebben/forskning/centrumbildningar/CATS/publikationer/Den%20svarta%20svanen%20och%20dess%20motst%C3%A5ndare.pdf">Den svarta svanen och dess motståndare: Förvarningsaspekter på attentaten i Oslo och på Utøya 22 juli 2011</a>, Försvarshögskolan 2013</cite>
+				</blockquote>
+				<blockquote>
+					2. "Detta beror dels på att informationsmängden som sådan genererar vad som skulle kunna kallas ett sorteringsbrus, dels att den intellektuella överblickbarheten snabbt riskerar att gå förlorad. Sorteringsbruset kan enklast illustreras av en vanlig Internet-sökning. Själva omfattningen av den tillgängliga informationen kan alltså skapa ett brus av oöverskådlighet, där såväl verkliga signaler som skenbara sådana går förlorade."
+					<cite>Ibid.</cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-text home-dark vadsomhant">
+		<div class="row">
+			<div class="large-12 columns">
+				<h2 id="hittills" data-magellan-destination="hittills">VAD SOM HÄNT</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Det tog sex månader för EU:s medlemsländer att komma överens om att de ville massövervaka alla i hela Europa. Särskilt ville man tvinga internetoperatörer att lagra all information om när man sagt något, vad man sagt och var man befann sig då. I vissa länder ville man också lagra all internettrafik: när man skickat mejl, vilka hemsidor man besökt, och hur länge.</p>
+
+				<p><strong>Snabba förhandlingar vände på oskuldspresumptionen: plötsligt var det inte polisens uppgift att utreda medborgare som stod under misstanke, utan medborgarnas uppgift att inte bete sig på ett sätt som behövs utredas.</strong></p>
+
+				<p>I fem EU-länder förklarade konstitutionsdomstolar att datalagringsdirektivet var oförenligt med demokratiska principer. "Man får inte vända på oskuldspresumptionen," sa <a href="https://www.openrightsgroup.org/blog/2009/data-retention-rejected-by-romanias-courts">Rumänien</a>. "Datasäkerheten är för låg," sa <a href="http://www.out-law.com/page-10807">Tyskland</a> och <a href="https://edri.org/edrigramnumber9-3data-retention-un-lawful-cyprus/">Cypern</a>. "Det här strider mot mänskliga rättigheter," sa både <a href="http://www.pcadvisor.co.uk/news/mobile-phone/3362812/czechs-consider-reintroducing-eu-data-retention-rules/">Tjeckien</a>, <a href="http://www.techweekeurope.co.uk/workspace/austria-eu-data-retention-directive-102438">Österrike</a> och <a href="http://history.edri.org/edri-gram/number6.24/bulgarian-administrative-case-data-retention">Bulgarien</a>. "Det här kan inte rimligtvis vara en bra marknadsåtgärd," sa <a href="http://eulawanalysis.blogspot.se/2014/04/national-legal-challenges-to-data.html">Irland och Slovakien</a>.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Den 8 april 2014 <a href="http://www.dn.se/ekonomi/eu-domstolen-datalagringsdirektiv-ogiltigt/">förklarade</a> till sist EU-domstolen att datalagringsdirektivet inte är förenligt med de mänskliga rättigheter som tillfaller alla europeiska medborgare. Datalagringsdirektivet ogiltigförklarades i sin helhet.</p>
+
+				<p>I många länder välkomnades beslutet. Men särskilt i de EU-länder som saknar konstitutionsdomstol &ndash; till exempel Sverige &ndash; har någonting annat hänt: man utnämner den nationella lagen till "sammantaget inte tillräckligt dålig".</p>
+
+				<p>Efter EU-domstolens dom startade PTS en intern rättsutredning för att se vilken inverkan domen har på svensk lag. Den 10 april 2014 <a href="http://www.pts.se/sv/Nyheter/Telefoni/2014/PTS-kommer-inte-i-nulaget-att-vidta-atgarder-utifran-datalagringsreglerna/">meddelade PTS</a> att svenska operatörer tills vidare inte var skyldiga att lagra trafikuppgifter: "PTS analys visar att det finns stora svårigheter att vidta åtgärder med stöd i datalagringsreglerna, som de är utformade i dag".</p>
+
+				<p>Regeringen tillsatte en enmansutredning. Sten Heckscher <a href="http://www.regeringen.se/sb/d/18591/a/239413">fick uppdraget</a> att snabbt analysera de svenska reglernas tillämplighet i förhållande till vad EU-domstolen sagt. Den 13 juni <a href="http://www.regeringen.se/sb/d/18730/a/242377">presenterades resultatet</a>: den "samlade bedömningen" var att Sveriges datalagring är förenlig med kravet på respekt för de grundläggande rättigheterna.</p>
+			</div>
+			<div class="large-4 columns blockquote-right text-center">
+				<i class="fa fa-gavel"></i>
+				<blockquote class="text-left">
+					"Domstolen anser att direktivet utgör ett synnerligen allvarligt ingrepp i den grundläggande rätten till respekt för privatlivet och skydd för personuppgifter genom att kräva att dessa uppgifter ska lagras och genom att ge behöriga nationella myndigheter tillgång till dessa uppgifter. Det förhållandet att lagring och senare användning av uppgifterna sker utan att abonnenten eller den registrerade användaren underrättas härom kan ge berörda personer en känsla av att deras privatliv står under konstant övervakning."
+					<cite>Europeiska unionens domstol, <a href="http://curia.europa.eu/jcms/upload/docs/application/pdf/2014-04/cp140054sv.pdf">Pressmeddelande nr 54/14</a>, 8 april 2014</cite>
+				</blockquote>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>EU-domstolen säger att datalagringen strider mot våra grundläggande friheter eftersom den är både kränkande, övergripande och osäker. Sten Heckscher väljer att kreativt tolka domen som att datalagring är bra om den inte <em>sammantaget</em> är för dålig. Den kan vara kränkande, övergripande och osäker så länge den inte är för mycket av allt samtidigt.</p>
+
+				<p>Tre dagar senare, den 16 juni 2014, <a href="http://www.pts.se/upload/Ovrigt/Internet/Tradala/Brev_angaende_lagring_av_trafikuppgifter_2014.pdf">meddelade PTS</a> att de återigen kommer att tillämpa de svenska reglerna och tvinga alla operatörer att datalagra. Operatören Bahnhof <a href="https://www.bahnhof.se/press/press-releases/2014/10/01/vad-forsoker-ni-dolja-pts">begärde då att få ut</a> den rättsutredning från april som låg till grund för PTS ursprungliga beslut. PTS nekade Bahnhof detta. Till sist, i december 2014, gav Kammarrätten Bahnhof rätt och <a href="https://www.bahnhof.se/press/press-releases/2014/12/19/kammarratten-ger-bahnhof-ratt-mot-pts">PTS lämnade ut sin egen analys</a>.</p>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<span class="pts-quote">"Sammanfattningsvis gör PTS bedömningen att de svenska reglerna om lagring av trafikdata vare sig till sin <strong>omfattning</strong> eller när det gäller krav på <strong>säkerhetskydd</strong> motsvarar de krav på proportionalitet som EU-domstolen har ställt upp i sin dom. Således strider även de svenska reglerna om lagring av trafikdata mot EU:s stadga om grundläggande friheter."</span>
+				<p>&mdash; PTS (Post- och telestyrelsen), <a href="https://www.bahnhof.se/filestorage/userfiles/file/R%C3%A4ttsanalysPTS.pdf">Konsekvenser av att EU-domstolen ogiltigförklarat trafikdatalagringsdirektivet</a> (promemoria), 2014-04-10</p>
+			</div>
+			<div class="large-4 columns text-center">
+				<i class="fa fa-quote-right"></i>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Riksdagsvalet 2014 och regeringsskiftet ändrade inte på något. <strong>Alliansen</strong> vill fortsätta datalagra. <strong>Socialdemokraterna</strong> vill fortsätta datalagra &ndash; inrikesminister Anders Ygeman (s) är <a href="http://sverigesradio.se/sida/artikel.aspx?programid=83&artikel=6018058">glad</a> över att EU-domen inte påverkade Sverige. <strong>Miljöpartiet</strong> ville före valet riva upp datalagringen. Efter att de kom med i regeringen har kritiken tystnat: Mehmet Kaplan (mp), minister med ansvar för IT-frågor, säger bara att han vill vänta på att Sten Heckschers utredning ska bli klar någon gång i vår. <strong>Vänsterpartiet</strong> är fortsatt emot. <strong>Sverigedemokraterna</strong> har överhuvudtaget inte kommenterat EU-domen, vilket kan tolkas som ett passivt stöd för fortsatt datalagring.</p>
+
+				<p>Tystnad råder. Lagringen av data om alla svenskars telefonsamtal, sms, epost, nätuppkopplingar och mobilpositioner fortsätter.</p>
+
+				<p><strong><a href="http://www.riksdagen.se/sv/Start/Kontakta/Ledamoter-och-partier/">Kontakta dina riksdagsledamöter</a></strong> och fråga dem varför de vill massövervaka dig och hur de kan stöda en lag som bryter mot de grundläggande rättigheter som Sverige förpliktigat sig att följa.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<blockquote><p class="spitz-quote">Masslagring av kommunikationsdata utan föregående misstanke är ofrånkomligen motstridigt med rättsstaten, oförenligt med grundläggande dataskyddsprinciper och ineffektivt. Stater som undertecknat konventionen för mänskliga rättigheter bör inte använda sig av det, och bör inte heller tvinga tredjeparter att lagra data.</p>
+					<cite>Europarådets talesperson Nils Muižnieks, som ansvarar för konventionen om mänskliga rättigheter, <a href="https://wcd.coe.int/ViewDoc.jsp?id=2268589">8 december 2014</a> (s. 22)</cite>
+				</blockquote>
+			</div>
+			<div class="large-4 columns text-center">
+				<i class="fa fa-eye-slash"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-text home-light">
+		<div class="row">
+			<div class="large-8 columns">
+				<h2 id="utdrag" data-magellan-destination="utdrag">BEGÄR UTDRAG</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>Du har enligt <a href="https://lagen.nu/1998:204#P26S1">26 § personuppgiftslagen</a> (PUL) rätt att en gång per kalenderår gratis få veta vilka personuppgifter ett företag, en organisation eller en myndighet har om dig, varifrån uppgifterna kommer, varför de har uppgifterna, och vilka de lämnar ut uppgifterna till.</p>
+
+				<p>För att få detta utdrag är det bara att skicka en skriftlig begäran. Informationen ska sedan lämnas till dig inom en månad, såvida det inte finns "särskilda skäl", i vilket fall informationen ska lämnas senast inom fyra månader; detta bör du i så fall få information om. Får du inget svar? Skicka en påminnelse. Fortfarande inget svar? <a href="https://www.datainspektionen.se/om-oss/kontakta-oss/">Kontakta Datainspektionen</a>.</p>
+
+				<p>Datalagringens trafikuppgifter är naturligtvis personuppgifter &ndash; oerhört känsliga sådana! Trafikuppgifter kan ofta innehålla sådant som <a href="https://lagen.nu/1998:204#P13S1">13 § PUL</a> definierar som känsligt och därmed förbjuder behandling av. Lagen om elektronisk kommunikation innehåller dock specialregler som kör över PUL.</p>
+				<p>Vi hävdar bestämt att du har rätt att ta del av de uppgifter som till exempel din Internetleverantör eller mobiloperatör har lagrat om dig &ndash; precis som Malte Spitz hade rätt att ta del av sina uppgifter i Tyskland. Tyvärr kommer du förmodligen inte att få ut dessa &ndash; rättsläget är nämligen oklart.</p>
+
+				<p>Datainspektionen hävdar att PUL:s bestämmelse om rätt att få information inte gäller och hänvisar till <a href="https://lagen.nu/2003:389#K6P16fS1">6 kap. 16 f § LEK</a>. Post- och telestyrelsen (PTS) hänvisar i stället till <a href="https://lagen.nu/2003:389#K6P16cS1">6 kap 16 c § LEK</a> men säger att det fortfarande är oklart hur 26 § PUL förhåller sig till detta.</p>
+
+				<p>Oavsett vad PUL och LEK säger har vi artikel 8(2) i <a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2010:083:0389:0403:sv:PDF">Europeiska unionens stadga om de grundläggande rättigheterna</a>: "Var och en har rätt att få tillgång till insamlade uppgifter som rör honom eller henne och att få rättelse av dem." Stadgan utgör en del av <a href="http://europa.eu/legislation_summaries/institutional_affairs/decisionmaking_process/l14530_sv.htm">primärrätten</a> och står således normalt över all annan lagstiftning.</p>
+
+				<p>Om du är intresserad av att driva ett rättsfall för att få ut dina trafikdatalagrade uppgifter, <a href="https://dataskydd.net/om">kontakta oss</a>.</p>
+				<p><strong>Eftersom våra möjligheter att påverka politiker i frågor om rättssäkerhet är begränsade, behöver vi hitta andra metoder. Gör en markering mot företagen &ndash; begär ut dina uppgifter!</strong></p>
+
+				<h3>Fyll i för att skapa en PDF som du kan skriva ut</h3>
+
+				<p>Formuläret nedan, baserat på en <a href="http://www.datainspektionen.se/fragor-och-svar/personuppgiftslagen/hur-gar-jag-tillvaga-for-att-begara-ett-registerutdrag/">mall från Datainspektionen</a>, hjälper dig att skapa begäran om registerutdrag. Fyll i och markera vilka du vill skicka till. När du klickar på "Skapa PDF" får du sedan en PDF-fil med en sida för varje mottagare, komplett med adress att skicka till. Sedan är det bara att skriva ut, signera och posta.</p>
+				<p><em>Du måste skicka in din begäran skriftligen. Den måste vara undertecknad.</em></p>
+
+				<p><strong>Programmet som skapar PDF-filen körs lokalt i din webbläsare. Inget skickas till vår server.</strong> Om du vill kan du lämna vissa fält tomma och i stället skriva dem för hand efter att du skrivit ut PDF:en. <em>Om du använder Internet Explorer 9 eller tidigare, eller har JavaScript inaktiverat, använd <a href="http://www.datainspektionen.se/fragor-och-svar/personuppgiftslagen/hur-gar-jag-tillvaga-for-att-begara-ett-registerutdrag/">Datainspektionens mall</a>.</em></p>
+
+				<p>Det är inte bara mobil- och Internetoperatörer som lagrar personuppgifter om dig. Du kan även begära utdrag från till exempel matkedjor där du har kundkort, bibliotek, betalningsförmedlare, etc.</p>
+			</div>
+			<div class="large-4 columns blockquote-right">
+				<blockquote>
+					"Den personuppgiftsansvarige är skyldig att till var och en som ansöker om det en gång per kalenderår gratis lämna besked om personuppgifter som rör den sökande behandlas eller ej. Behandlas sådana uppgifter skall skriftlig information lämnas också om<br />
+					a) vilka uppgifter om den sökande som behandlas,<br />
+					b) varifrån dessa uppgifter har hämtats,<br />
+					c) ändamålen med behandlingen, och<br />
+					d) till vilka mottagare eller kategorier av mottagare som uppgifterna lämnas ut."
+					<cite><a href="https://lagen.nu/1998:204#P26S1">26 § Personuppgiftslagen</a></cite>
+				</blockquote>
+				<blockquote>
+					"I 16 f §  anges att ett utlämnande till polis av trafikuppgifter m.m. som lagras för brottsbekämpande ändamål (enligt 16 a §), ska ske så att det inte avslöjas att uppgifterna lämnas ut. PuL:s bestämmelse om rätt att få information gäller därmed inte.
+					<br />
+					Därutöver kan sägas att även PuL i sig innehåller en begränsning av rätten att få information. Enligt 27 § PuL gäller inte rätten till information om det är särskilt föreskrivet i lag eller annan författning att uppgifterna inte får lämnas ut till den registrerade.  Exempel på sådana regler är bestämmelser om sekretess i offentlighets- och sekretesslagen, i den mån de gäller även mot den som uppgifterna avser."
+					<cite>Epost från Datainspektionen, 14/10 2014</cite>
+				</blockquote>
+				<blockquote>
+					"När det i övrigt gäller gränsdragningen kring vilka regler i PUL som ska tillämpas i avsaknad av särskild reglering i LEK kan konsteras att det finns vissa oklarheter. En av de oklarheter som inte avgjorts inom ramen för något enskilt tillsynsärende är hur 26§ PUL ska tillämpas i förhållande till LEK och de regler som finns i 6 kap 16c§ som innebär att lagrade uppgifter endast får behandlas för utlämnande till utpekade brottsbekämpande myndigheter. Post- och telestyrelsen (PTS) har regelbundna möten med Datainspektionen (DI) vid vilka bland annat denna gränsdragningsproblematik diskuteras."
+					<cite>Epost från Post- och telestyrelsen (PTS), 16/10 2014</cite>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-light">
+		<div class="row">
+			<form>
+				<div class="large-6 columns">
+					<div class="row">
+						<div class="large-12 columns">
+							<div id="address">
+								<label for="name">Namn</label>
+								<input id="name" type="text" placeholder="Namn" />
+								<label for="careof">c/o</label>
+								<input id="careof" type="text" placeholder="" />
+								<label for="street">Gatuadress</label>
+								<input id="street" type="text" placeholder="" />
+								<div class="row">
+									<div class="large-4 columns">
+										<label for="postalcode">Postnummer</label>
+										<input id="postalcode" type="text" placeholder="" />
+									</div>
+									<div class="large-8 columns">
+										<label for="city">Postort</label>
+										<input id="city" type="text" placeholder="" />
+									</div>
+								</div>
+							</div>
+							<label for="personalid">Personnummer</label>
+							<input id="personalid" type="text" placeholder="ÅÅÅÅMMDD-XXXX" />
+							<label for="place">Ort</label>
+							<input id="place" type="text" placeholder="" />
+							<label for="date">Datum</label>
+							<input id="date" type="text" placeholder="ÅÅÅÅ-MM-DD" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="large-5 columns">
+							<a class="button" href="javascript:generatePdf();">Skapa PDF</a>
+						</div>
+						<div class="large-7 columns" id="alertarea">
+						</div>
+					</div>
+				</div>
+				<div id="orglist" class="large-6 columns">
+					Företag/organisationer du vill skicka till:
+					<div class="row">
+						<div class="large-6 columns">
+							<ul class="no-bullet">
+								<li><input id="alltele" type="checkbox"><label for="alltele">AllTele</label></li>
+								<li><input id="bahnhof" type="checkbox"><label for="bahnhof">Bahnhof</label></li>
+								<li><input id="b2" type="checkbox"><label for="b2">Bredband2</label></li>
+								<li><input id="bbb" type="checkbox"><label for="bbb">Bredbandsbolaget</label></li>
+								<li><input id="comhem" type="checkbox"><label for="comhem">Com Hem</label></li>
+								<li><input id="comviq" type="checkbox"><label for="comviq">Comviq</label></li>
+								<li><input id="halebop" type="checkbox"><label for="halebop">Halebop</label></li>
+								<li><input id="ownit" type="checkbox"><label for="ownit">Ownit</label></li>
+								<li><input id="riksnet" type="checkbox"><label for="riksnet">Riksnet</label></li>
+								<li><input id="t3" type="checkbox"><label for="t3">T3</label></li>
+								<li><input id="tele2" type="checkbox"><label for="tele2">Tele2</label></li>
+								<li><input id="telenor" type="checkbox"><label for="telenor">Telenor</label></li>
+								<li><input id="telia" type="checkbox"><label for="telia">Telia</label></li>
+								<li><input id="tre" type="checkbox"><label for="tre">Tre (HI3G Access AB)</label></li>
+							</ul>
+						</div>
+						<div class="large-6 columns">
+							<ul class="no-bullet">
+								<li><input id="axfoodwillys" type="checkbox"><label for="axfoodwillys">Axfood/Willys (Willys+)</label></li>
+								<li><input id="coop" type="checkbox"><label for="coop">Coop (t.ex. MedMera-kort)</label></li>
+								<li><input id="ica" type="checkbox"><label for="ica">ICA / ICA Banken *</label></li>
+								<li><input id="ikea" type="checkbox"><label for="ikea">IKEA FAMILY</label></li>
+								<li><input id="klarna" type="checkbox"><label for="klarna">Klarna</label></li>
+							</ul>
+							<p>* ICAs kunddatabas hanteras av ICA Banken (ja, de särskriver sitt namn).</p>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="home-text home-dark footer footer-one hide-for-print">
+		<div class="row">
+			<div class="large-8 columns">
+				<span class="dataskydd-logo"><a href="https://dataskydd.net"><span style="color:#f66931">dataskydd</span><span style="font-weight:600;">.net</span></a></span>
+				<p>stoppaspionerna.eu är en kampanj från <a href="https://dataskydd.net">Dataskydd.NET</a>. Vi är en partipolitiskt oberoende organisation som kämpar för bättre skydd för mänskliga rättigheter i Sverige, inklusive privatliv. Vi kartlägger EU:s dataskyddspaket, datalagring, och andra integritetskränkningar&nbsp;&ndash; samt hur politiken enkelt kan förändras för att hindra integritetskränkningar. Vi samlar skvaller från Bryssel, analyser av politiska dokument, tidsplaner, och aktiviteter som går att genomföra lokalt i Sverige.</p>
+			</div>
+			<div class="large-4 columns">
+				<p><a href="https://www.facebook.com/dataskydd.net" class="no-border"><i class="fa fa-facebook-square fa-2x"></i></a></p>
+				<p>Våra vänner:</p>
+				<ul class="no-bullet">
+					<li><a href="https://www.nakedcitizens.eu/">NakedCitizens.nu</a></li>
+					<li><a href="http://respect-my-privacy.eu/">Respect-my-Privacy.eu</a></li>
+					<li><a href="http://protectmydata.eu/">ProtectMyData.eu</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="home-text home-dark footer footer-two hide-for-print">
+		<div class="row">
+			<div class="large-12 columns">
+				<p>Vi använder inga kakor. Problem med sajten? Frågor? <a href="https://dataskydd.net/om">Kontakta</a> oss!<br>All text, förutom citat, är tillgänglig under <a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a> (ingen upphovsrätt). Fotografiet i sidhuvudet är &copy; <a href="http://sandas04.deviantart.com/art/Surveillance-328357763">Nils-Erik Larson</a>. Bilden är beskuren. Typsnitten är <a hreF="https://github.com/adobe-fonts/source-sans-pro">Source Sans Pro</a> av Paul D. Hunt, <a href="https://github.com/vernnobile/OswaldFont">Oswald</a> av Vernon Adams och <a href="http://fontawesome.io/">Font Awesome</a> av Dave Gandy, släppta under SIL Open Font License 1.1, och <a href="http://www.google.com/fonts/specimen/Droid+Sans+Mono">Droid Sans Mono</a> av Steve Matteson, släppt under Apache License 2.0.</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/foundation.js"></script>
+</body>
+</html>
