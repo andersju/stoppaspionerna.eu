@@ -1,6 +1,6 @@
 Code for https://stoppaspionerna.eu/
 
-Uses [ZURB Foundation](http://foundation.zurb.com/) 5.5.0 and [jsPDF](https://github.com/MrRio/jsPDF). Site-specific JavaScript is in `js/custom/spioner.js`.
+Uses [ZURB Foundation](http://foundation.zurb.com/) 5.5.0, [jsPDF](https://github.com/MrRio/jsPDF) and the fonts [Source Sans Pro](https://github.com/adobe-fonts/source-sans-pro), [Oswald](https://github.com/vernnobile/OswaldFont) and [Font Awesome](http://fontawesome.io/). Site-specific JavaScript is in `js/custom/spioner.js`. We don't want to load any external resources, so everything is self-hosted.
 
 To get started:
 
