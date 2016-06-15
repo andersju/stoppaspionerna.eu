@@ -65,8 +65,10 @@ function generatePdf() {
 			var address = orgList[ company ].address;
 			doc.text( 20, 30, address );
 
-			doc.text( 20, 70, 'Härmed ansöker jag om information enligt 26 § personuppgiftslagen.' );
-			doc.text( 20, 80, 'Med detta menas samtliga personuppgifter om mig som ni behandlar.' );
+			doc.text( 20, 70, 'Härmed ansöker jag om information enligt 26 § personuppgiftslagen och i enlighet med mina' );
+			doc.text( 20, 77, 'rättigheter enligt EU:s stadga om de grundläggande rättigheterna artikel 8.2.' );
+			doc.text( 20, 84, 'Med detta menas samtliga personuppgifter om mig som ni behandlar, inklusive sådana uppgifter' );
+			doc.text( 20, 91, 'som tillkommit till följd av 6 kap. 16 a § lagen om elektronisk kommunikation (trafikdatalagring).' );
 
 			doc.text( 20, 118, $( 'input#place' ).val() );
 			doc.text( 90, 118, $( 'input#date' ).val() );
